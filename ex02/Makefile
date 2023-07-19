@@ -5,12 +5,10 @@ FLAGS = -std=c++98 -Wall -Werror -Wextra
 SRC = main.cpp \
 	  ClapTrap.cpp \
 	  ScavTrap.cpp \
-	  FragTrap.cpp 
 
 OBJ = main.o \
 	  ClapTrap.o \
-	  ScavTrap.o \
-	  FragTrap.o
+	  ScavTrap.o
 
 all:$(NAME)
 
